@@ -50,6 +50,7 @@ const plugins = [
 
     options: {
       upload_dir: "uploads",
+      backend_url: process.env.MEDUSA_BACKEND_URL,
     },
   },
   {
