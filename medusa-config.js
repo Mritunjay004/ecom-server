@@ -36,8 +36,6 @@ const DB_HOST = process.env.DB_HOST;
 const DB_PORT = process.env.DB_PORT;
 const DB_DATABASE = process.env.DB_DATABASE;
 
-// DATABASE_URL=postgres://default:MX1J6kQAhIUw@ep-super-waterfall-75829139.ap-southeast-1.postgres.vercel-storage.com:5432/verceldb?sslmode=require
-
 const DATABASE_URL =
   `postgres://${DB_USERNAME}:${DB_PASSWORD}` +
   `@${DB_HOST}:${DB_PORT}/${DB_DATABASE}`;
